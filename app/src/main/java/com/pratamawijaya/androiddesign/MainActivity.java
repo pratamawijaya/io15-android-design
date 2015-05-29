@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
+import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -49,6 +50,11 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    @OnClick(R.id.btnFab)
+    public void onBtnFabClick() {
+        Toast.makeText(this, "Fab Clicked", Toast.LENGTH_SHORT).show();
     }
 
 
