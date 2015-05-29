@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contacts"
+            android:title="Contact" />
+
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_cloud"
+            android:title="Download" />
+    </group>
+
+</menu>
